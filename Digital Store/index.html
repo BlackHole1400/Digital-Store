@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jolt Studio | Digital Modern Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/mountain.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-bar">
+      <p>New Season Drop • 10% off for all premium bundles • Code: JOLT10</p>
+    </header>
+
+    <nav class="navbar">
+    <img src="images/mountain.png" alt="Jolt logo" class="nav-logo"/>
+      <!--<div class="logo">Jolt</div>-->
+      <ul class="nav-links">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#arrivals">New Arrivals</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="ghost-btn">Search</button>
+        <button class="ghost-btn">Cart (0)</button>
+        <button class="primary-btn">Sign in</button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="tag">Jolt Sport Project</p>
+          <h1>Digital Modern Storefront for the Brave Outdoors.</h1>
+          <p>
+            Discover our latest collections crafted for endurance, comfort, and
+            bold street tech aesthetics. Built to power your adventures in every
+            season.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-btn">Shop Now</button>
+            <button class="ghost-btn">Explore Story</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="arrivals" class="section section-arrivals reveal">
+        <div class="section-header">
+          <div>
+            <h2>New Arrivals</h2>
+            <p>Performance gear and accessories with elevated silhouettes.</p>
+          </div>
+          <button class="ghost-btn">See all</button>
+        </div>
+        <div class="grid products">
+          <article class="product-card">
+            <img src="images/carabiner-pro-set.png" alt="Carabiner set" />
+            <div class="product-body">
+              <h3>Carabiner Pro Set</h3>
+              <p>Alpine alloy, storm-ready grip.</p>
+              <div class="product-meta">
+                <span>$28.00</span>
+                <button class="icon-btn">Add</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img src="images/volt-carry-pack.png" alt="Urban carry bag" />
+            <div class="product-body">
+              <h3>Volt Carry Pack</h3>
+              <p>Streamlined storage for tech layers.</p>
+              <div class="product-meta">
+                <span>$98.00</span>
+                <button class="icon-btn">Add</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <img
+              src="images/nova-runner-sandal.png" alt="Digital sandal"/>
+            <div class="product-body">
+              <h3>Nova Runner Sandal</h3>
+              <p>Memory foam footbed with tech straps.</p>
+              <div class="product-meta">
+                <span>$82.00</span>
+                <button class="icon-btn">Add</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="stories" class="section story reveal">
+        <div class="story-card">
+          <img src="images/34237523.jpg" alt="Store interior" />
+          <div class="story-content">
+            <h2>Find Your Perfect Look at Jolt Studio Tokyo</h2>
+            <p>
+              A curated space for new arrivals, limited capsules, and immersive
+              techwear experiences. Drop in, test materials, and discover the
+              next wave of performance fashion.
+            </p>
+            <div class="story-actions">
+              <button class="primary-btn" type="button" onclick="window.open('https://www.google.com/maps/place/Red+Mesa+LLC/@37.254622,-115.8427128,11761m/data=!3m1!1e3!4m15!1m8!3m7!1s0x80b81baaba3e8c81:0x970427e38e6237ae!2zw4FyZWEgNTEsIE5WLCBFVUE!3b1!8m2!3d37.2430548!4d-115.7930198!16zL20vMHlqcQ!3m5!1s0x80b81b7293bf6759:0xedde3e0f3ed60a0b!8m2!3d37.2414501!4d-115.8141773!16s%2Fg%2F11yxrnxn8v?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D', '_blank')">See on map</button>
+              <button class="ghost-btn">Book a visit</button>
+            </div>
+            <div class="story-highlight">
+              <span>50% off select launch pieces</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="section featured reveal">
+        <div class="section-header centered">
+          <h2>Featured Collections</h2>
+          <p>Mix and match modular staples for any city or trail.</p>
+        </div>
+        <div class="grid featured-grid">
+          <article class="featured-card">
+            <img src="images/main.jpeg" alt="Footwear collection" />
+            <div class="featured-overlay">
+              <h3>Footwear</h3>
+              <button class="ghost-btn">Discover</button>
+            </div>
+          </article>
+          <article class="featured-card">
+            <img src="images/main.jpeg" alt="Jackets" />
+            <div class="featured-overlay">
+              <h3>Jackets</h3>
+              <button class="ghost-btn">Discover</button>
+            </div>
+          </article>
+          <article class="featured-card">
+            <img src="images/main.jpeg" alt="Accessories" />
+            <div class="featured-overlay">
+              <h3>Accessories</h3>
+              <button class="ghost-btn">Discover</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="collections" class="section collections reveal">
+        <div class="section-header">
+          <div>
+            <h2>Digital Essentials</h2>
+            <p>Advanced fabrics, smart storage, and cloud-ready materials.</p>
+          </div>
+          <button class="primary-btn">View catalog</button>
+        </div>
+        <div class="collection-list">
+          <div class="collection-item">
+            <h3>Headwear</h3>
+            <p>Lightweight protection with adaptive liners.</p>
+          </div>
+          <div class="collection-item">
+            <h3>Modular Packs</h3>
+            <p>Detach and reconfigure for any mission.</p>
+          </div>
+          <div class="collection-item">
+            <h3>Storm Layers</h3>
+            <p>Thermal membranes with kinetic airflow.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="newsletter" class="newsletter reveal">
+      <div class="newsletter-card">
+        <h2>Sign up to our newsletter</h2>
+        <p>Get weekly drops, styling notes, and early access codes.</p>
+        <form>
+          <input type="email" placeholder="Email address" required />
+          <button class="primary-btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div>
+          <h3>Jolt</h3>
+          <p>
+            Experience the great outdoors in style. Shop new gear and techwear
+            built for adventure.
+          </p>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul>
+            <li>Jackets</li>
+            <li>Footwear</li>
+            <li>Packs</li>
+            <li>Accessories</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Customer Care</h4>
+          <ul>
+            <li>FAQ</li>
+            <li>Shipping</li>
+            <li>Order Status</li>
+            <li>Returns</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Jolt Studio, Inc. All rights reserved.</span>
+        <button class="ghost-btn">Contact us</button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
